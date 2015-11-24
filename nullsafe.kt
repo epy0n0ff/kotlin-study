@@ -3,5 +3,6 @@ fun main(args: Array<String>) {
 }
 
 fun getNullable() {
+    // Using Elvis operator(?:)
     val ref = null ?: return
 }
